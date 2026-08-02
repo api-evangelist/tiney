@@ -1,8 +1,23 @@
 aid: tiney
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tiney.png
 name: Tiney
-description: 'Tiney is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: future-of-work. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Tiney is the UK''s fastest-growing Ofsted-approved childminder agency, connecting parents
+  with quality-assured home childminders and supporting educators through training, registration, and
+  ongoing quality assurance. Operating as a government-regulated Childminder Agency (CMA), tiney runs a
+  consumer marketplace plus a mobile app for finding local childcare and managing payments, communication,
+  and children''s learning updates. Tiney publishes no public developer API; its backend at api.tiney.co
+  powers the parent and childminder apps and is access-restricted (HTTP 403) and undocumented.'
 url: https://raw.githubusercontent.com/api-evangelist/tiney/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Future Of Work
+- Childcare
+- Early Years Education
+- Childminder Agency
+- Marketplace
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +44,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://tiney.co
+  url: https://www.tiney.co
+- type: About
+  url: https://www.tiney.co/about
+- type: Support
+  url: https://help.tiney.co
+- type: Login
+  url: https://app.tiney.co
+- type: TermsOfService
+  url: https://www.tiney.co/terms
+- type: DomainSecurity
+  url: security/tiney-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
